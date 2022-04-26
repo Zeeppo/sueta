@@ -1,0 +1,31 @@
+'''
+for a in range(1, 100000):
+    is_ok = True
+    for x in range(1, 3000):
+        is_ok *= (x%54 == 0 and x%80 == 0 or x%a != 0)
+    if is_ok:
+        print(a)
+        break
+'''
+   
+   
+'''
+def f(a, b):
+    if a > b or a == 11:
+        return 0
+    if a == b:
+        return 1
+    return f(a + 1, b) + f(a + 2, b) + f(a * 2, b)
+
+
+print(f(2, 10) * f(10, 15))
+'''
+
+'''
+f = 5**2022 - 2*5**1010 + 26**850 + 2500
+s = ' '
+while f > 0:
+    s = s + str(f%5)
+    f = f // 5
+print(s.count('4'))
+'''
