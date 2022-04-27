@@ -29,3 +29,10 @@ while f > 0:
     f = f // 5
 print(s.count('4'))
 '''
+
+
+N=2**I
+I=k*I
+I=k*I
+I=k*dpi*dpi*I
+I=k*f*i*t
