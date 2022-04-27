@@ -32,7 +32,7 @@ print(s.count('4'))
 
 
 N=2**I
-I=k*I
-I=k*I
-I=k*dpi*dpi*I
-I=k*f*i*t
+I=k*I текст
+I=k*I графика
+I=k*dpi*dpi*I графика 
+I=k*f*i*t звук
